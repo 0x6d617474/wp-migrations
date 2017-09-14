@@ -1,0 +1,24 @@
+<?php
+
+namespace {{namespace}};
+
+use {{vendor}}\Migration;
+
+final class {{class}} extends Migration
+{
+    /**
+     * Perform the migration
+     */
+    public function up()
+    {
+        // TODO: Implement
+    }
+
+    /**
+     * Roll back the migration
+     */
+    public function down()
+    {
+        // TODO: Implement
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "0x6d617474/wp-migrations",
+  "description": "Migrations for WordPress plugins",
+  "keywords": ["wordpress", "migrations"],
+  "license": "MIT",
+  "require": {
+    "robmorgan/phinx": "^0.9.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ox6d617474\\WordPress\\Migrations\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable"
+}

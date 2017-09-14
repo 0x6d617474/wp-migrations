@@ -1,0 +1,24 @@
+# Ignore hidden files
+.*
+
+# Ignore temporary files
+*~
+
+# Annoying Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Generated content
+vendor/
+node_modules/
+bower_components/
+clover.xml
+dist/
+
+# Exceptions
+!.gitignore
+!*/.gitkeep
+!*/.gitignore
+!.php_cs
